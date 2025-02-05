@@ -298,10 +298,10 @@ border-radius: 30px;
   
   /* -----------card p -------------- */
 .item p{
-  color: #fff;
+    color: #fff;
   font-size: 20px;
   margin: 30px;
-  text-align: justify;
+  text-align: justify; 
 }
 .item1 p{
   color: #fff;
@@ -537,7 +537,7 @@ liii a{
     color: #fff;
     font-size: 20px;
     margin: 30px;
-    text-align: justify;
+    /* text-align: justify; */
    }
    .iem4 p{
     color: #fff;
@@ -1134,6 +1134,12 @@ padding: 30px;
       margin-top: 50px;
       border-radius: 30px;
        }
+       .item p{
+        font-size: 2vw;
+       }
+       .item1 p{
+        font-size: 2vw;
+       }
      /* 2ND LINE CARD */
      .ite{
       color: white;
@@ -1154,6 +1160,17 @@ padding: 30px;
         margin-top: 30px;
         border-radius: 30px;
          }
+.ite p{
+  color: #fff;
+  font-size: 2vw;
+  /* margin: 30px; */
+  /* text-align: center; */
+  /* flex-wrap: wrap; */
+}
+.ite2 p{
+  font-size: 2vw;
+}
+
        /* 3RD LINE CARD */
      .itt{
       color: white;
@@ -1172,6 +1189,12 @@ padding: 30px;
         margin-left: 30px;
         margin-top: 30px;
         border-radius: 30px;
+         }
+         .itt p{
+          font-size: 2vw;
+         }
+         .itt3 p{
+          font-size: 2vw;
          }
         /* 4 LINE CARD */
      .iem{
@@ -1192,6 +1215,12 @@ padding: 30px;
         margin-top: 30px;
         border-radius: 30px;
          }
+         .iem p{
+          font-size: 2vw;
+         }
+         .iem4 p{
+          font-size: 2vw;
+         }
         /* 5 LINE CARD */
      .itm{
       color: white;
@@ -1211,6 +1240,12 @@ padding: 30px;
         margin-top: 35px;
         border-radius: 30px;
          }
+         .itm p{
+          font-size: 2vw;
+         }
+         .itm5 p{
+          font-size: 2vw;
+         }
         /* 6 LINE CARD */
      .tem{
       color: white;
@@ -1220,6 +1255,9 @@ padding: 30px;
       margin-left: 30px;
       margin-top: 30px;
       border-radius: 30px;
+       }
+       .tem p{
+        font-size: 2vw;
        }
       
          /*------------------ Explore our------------------ */
@@ -1254,6 +1292,7 @@ h2 {
 /* ----1st card img---------- */
 .item1 .i1{
   width: 95%;
+  /* margin-left: 50px; */
 }
 /* --------------2nd card--------------- */
 .ite img{
@@ -1299,6 +1338,9 @@ h2 {
  #nav{
   height: 400%;
  }
+ .navbar{
+
+ }
 }
 @media only screen and (max-width: 767px){
   /*--------------------- navbar home PROJECT etc -----------------*/
@@ -1329,6 +1371,12 @@ h2 {
       border-radius: 30px;
       
        } 
+       .item p{
+        font-size: 20px;
+       }
+       .item1 p{
+        font-size: 20px;
+       }
      /* 2ND LINE CARD */
      .containe{
       flex-direction: column;
@@ -1353,6 +1401,12 @@ h2 {
         border-radius: 30px;
       
        } 
+       .ite p{
+        font-size: 20px;
+       }
+       .ite2 p{
+        font-size: 20px;
+       }
         /* 3RD LINE CARD */
      .contain{
       flex-direction: column;
@@ -1377,6 +1431,12 @@ h2 {
         border-radius: 30px;
         
          } 
+         .itt p{
+          font-size: 20px;
+         }
+         .itt3 p{
+          font-size: 20px;
+         }
        /* 4 LINE CARD */
      .contai{
       flex-direction: column;
@@ -1401,6 +1461,12 @@ h2 {
         border-radius: 30px;
         
          } 
+         .iem p{
+          font-size: 20px;
+         }
+         .iem4 p{
+          font-size: 20px;
+         }
         /* 5 LINE CARD */
      .conta{
       flex-direction: column;
@@ -1425,6 +1491,12 @@ h2 {
         border-radius: 30px;
         
          } 
+         .itm p{
+          font-size: 20px;
+         }
+         .itm5 p{
+          font-size: 20px;
+         }
         /* 6 LINE CARD */
      .cont{
       flex-direction: column;
@@ -1439,86 +1511,84 @@ h2 {
       border-radius: 30px;
       
        } 
-       .tem6{
-        color: white;
-        width: 93%;
-        height: 10%;
-        margin: -10px;
-        margin-left: 28px;
-        margin-top: 30px;
-        border-radius: 30px;
-        
-         } 
+       .tem p{
+        font-size: 20px;
+       } 
      /*------------ footer background color ------------*/
      #nav{
-      width: 100%;
+      width: 101.5%;
      }
      /*---------- footer location Contact Email background color------------ */
      .na{
-      width: 100%;
+      width: 101.5%;
      }
      
     
 }
+@media only screen and (max-width:500px){
+  .navbar{
+  margin-left: 20px;
+  width: 92%;
+  }
+  
+}
 @media only screen and (max-width:425px){
+  
   .item{
-  margin-left: 18px;
+  margin-left: 15px;
     
      } 
      .item1{
-      margin-left: 18px;
+      margin-left: 15px;
       
        } 
      /* 2ND LINE CARD */
       
        .ite{
-        margin-left: 18px;
+        margin-left: 15px;
       
        } 
        .ite2{
-        margin-left: 18px;
+        margin-left: 15px;
       
        } 
         /* 3RD LINE CARD */
      
        .itt{
-        margin-left: 18px;
+        margin-left: 15px;
       
        } 
        .itt3{
-        margin-left: 18px;
+        margin-left: 15px;
         
          } 
        /* 4 LINE CARD */
       
        .iem{
-        margin-left: 18px;
+        margin-left: 15px;
       
        } 
        .iem4{
-        margin-left: 18px;
+        margin-left: 15px;
         
          } 
         /* 5 LINE CARD */
       
        .itm{
-        margin-left: 18px;
+        margin-left: 15px;
       
        } 
        .itm5{
-        margin-left: 18px;
+        margin-left: 15px;
         
          } 
         /* 6 LINE CARD */
       
        .tem{
-        margin-left: 18px;
+        margin-left: 14px;
       
        } 
-       .tem6{
-        margin-left: 18px;
-        
-         }
+ 
          /*------------------ Explore our------------------ */
 h1 {
   color: white;
@@ -1537,6 +1607,12 @@ h2 {
 
           
 }
+@media only screen and (max-width:375px){
+.navbar{
+  width:88% ;
+}
+}
+
 @media only screen and (max-width:320px){
   /*-------------- contant------------ */
 iee{
