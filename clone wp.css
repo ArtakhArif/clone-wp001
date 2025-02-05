@@ -1,4 +1,4 @@
-    /* Reset some default styles */
+     /* Reset some default styles */
 * {
   margin: 0;
   padding: 0;
@@ -715,7 +715,7 @@ h4{
  
  .na {
   background-color: #111111fd;
-  margin-top: 400px;
+  margin-top: 100px;
 }
 
 div100 { 
